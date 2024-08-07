@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using sudoku_lib;
 
 namespace sudoku_wpf;
 
@@ -16,6 +17,8 @@ namespace sudoku_wpf;
 /// </summary>
 public partial class MainWindow : Window
 {
+    private SudokuBoard _sudokuBoard = new SudokuBoard();
+    
     public MainWindow()
     {
         InitializeComponent();

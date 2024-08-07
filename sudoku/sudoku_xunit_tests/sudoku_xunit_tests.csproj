@@ -20,4 +20,8 @@
         <Using Include="Xunit"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\sudoku_lib\sudoku_lib.csproj" />
+    </ItemGroup>
+
 </Project>
